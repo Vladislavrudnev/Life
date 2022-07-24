@@ -13,6 +13,11 @@
 		E81D2BE8288D7EA100A13660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81D2BE6288D7EA100A13660 /* Main.storyboard */; };
 		E81D2BEA288D7EA200A13660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81D2BE9288D7EA200A13660 /* Assets.xcassets */; };
 		E81D2BED288D7EA200A13660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81D2BEB288D7EA200A13660 /* LaunchScreen.storyboard */; };
+		E81D2BF5288D80A900A13660 /* SquareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D2BF4288D80A900A13660 /* SquareCollectionViewCell.swift */; };
+		E81D2BF7288D834500A13660 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D2BF6288D834500A13660 /* Game.swift */; };
+		E81D2BF9288D837A00A13660 /* GameState .swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D2BF8288D837A00A13660 /* GameState .swift */; };
+		E81D2BFB288D83A000A13660 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D2BFA288D83A000A13660 /* CellModel.swift */; };
+		E81D2BFD288D85B300A13660 /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D2BFC288D85B300A13660 /* StyleGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E81D2BE9288D7EA200A13660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E81D2BEC288D7EA200A13660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E81D2BEE288D7EA200A13660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81D2BF4288D80A900A13660 /* SquareCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCollectionViewCell.swift; sourceTree = "<group>"; };
+		E81D2BF6288D834500A13660 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E81D2BF8288D837A00A13660 /* GameState .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameState .swift"; sourceTree = "<group>"; };
+		E81D2BFA288D83A000A13660 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		E81D2BFC288D85B300A13660 /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				E81D2BE0288D7EA100A13660 /* AppDelegate.swift */,
 				E81D2BE2288D7EA100A13660 /* SceneDelegate.swift */,
 				E81D2BE4288D7EA100A13660 /* ViewController.swift */,
+				E81D2BFC288D85B300A13660 /* StyleGuide.swift */,
+				E81D2BF6288D834500A13660 /* Game.swift */,
+				E81D2BF8288D837A00A13660 /* GameState .swift */,
+				E81D2BFA288D83A000A13660 /* CellModel.swift */,
+				E81D2BF4288D80A900A13660 /* SquareCollectionViewCell.swift */,
 				E81D2BE6288D7EA100A13660 /* Main.storyboard */,
 				E81D2BE9288D7EA200A13660 /* Assets.xcassets */,
 				E81D2BEB288D7EA200A13660 /* LaunchScreen.storyboard */,
@@ -139,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E81D2BE5288D7EA100A13660 /* ViewController.swift in Sources */,
+				E81D2BF7288D834500A13660 /* Game.swift in Sources */,
+				E81D2BFD288D85B300A13660 /* StyleGuide.swift in Sources */,
+				E81D2BF5288D80A900A13660 /* SquareCollectionViewCell.swift in Sources */,
 				E81D2BE1288D7EA100A13660 /* AppDelegate.swift in Sources */,
+				E81D2BFB288D83A000A13660 /* CellModel.swift in Sources */,
+				E81D2BF9288D837A00A13660 /* GameState .swift in Sources */,
 				E81D2BE3288D7EA100A13660 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +350,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
